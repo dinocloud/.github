@@ -2,7 +2,7 @@ name: Galaxy apps CI/CD
 
 on:
   push:
-    branches: [ master, staging, dev, develop]
+    branches: [ $default-branch ]
       
 jobs:
   build:
